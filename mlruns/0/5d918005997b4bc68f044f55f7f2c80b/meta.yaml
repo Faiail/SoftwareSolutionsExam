@@ -1,0 +1,15 @@
+artifact_uri: file:///home/raffaele/soft_exam/mlruns/0/5d918005997b4bc68f044f55f7f2c80b/artifacts
+end_time: 1690449119577
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5d918005997b4bc68f044f55f7f2c80b
+run_name: ambitious-doe-990
+run_uuid: 5d918005997b4bc68f044f55f7f2c80b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690449065873
+status: 3
+tags: []
+user_id: raffaele

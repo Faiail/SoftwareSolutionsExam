@@ -1,0 +1,46 @@
+schema: '2.0'
+stages:
+  extract:
+    cmd: unzip data/dataset.zip -d data
+    deps:
+    - path: data/dataset.zip
+      hash: md5
+      md5: 12d2150969eabdc31e9a350122a87740
+      size: 71273892
+    outs:
+    - path: data/dataset/dataset.csv
+      hash: md5
+      md5: a42372186c24f61dfbd463528fc2ac23
+      size: 163868756
+  split:
+    cmd: python code/split.py
+    deps:
+    - path: data/dataset/dataset.csv
+      hash: md5
+      md5: a42372186c24f61dfbd463528fc2ac23
+      size: 163868756
+    outs:
+    - path: data/test_data.csv
+      hash: md5
+      md5: 9a40366c1b518a0d7dabcfb474d716f7
+      size: 32751380
+    - path: data/train_data.csv
+      hash: md5
+      md5: 63898f08755a0da095501812437a61a8
+      size: 131001565
+  experiment:
+    cmd: python code/train.py
+    deps:
+    - path: data/test_data.csv
+      hash: md5
+      md5: 9a40366c1b518a0d7dabcfb474d716f7
+      size: 32751380
+    - path: data/train_data.csv
+      hash: md5
+      md5: 63898f08755a0da095501812437a61a8
+      size: 131001565
+    outs:
+    - path: model.pkl
+      hash: md5
+      md5: 6185bc6de05b54fd8daa40ce1dae5844
+      size: 395735

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/raffaele/soft_exam/mlruns/0/443795a4621c461d96f2b91f6b2f5323/artifacts
+end_time: 1690448554871
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 443795a4621c461d96f2b91f6b2f5323
+run_name: wistful-goose-761
+run_uuid: 443795a4621c461d96f2b91f6b2f5323
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690448554865
+status: 3
+tags: []
+user_id: raffaele

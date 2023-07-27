@@ -1,0 +1,15 @@
+artifact_uri: file:///home/raffaele/soft_exam/mlruns/0/fc0804115dbf49b6b11955744231e02c/artifacts
+end_time: 1690448595741
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fc0804115dbf49b6b11955744231e02c
+run_name: overjoyed-cow-972
+run_uuid: fc0804115dbf49b6b11955744231e02c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690448594525
+status: 3
+tags: []
+user_id: raffaele

@@ -1,0 +1,21 @@
+stages:
+  extract:
+    cmd: unzip data/dataset.zip -d data
+    deps:
+      - data/dataset.zip
+    outs:
+      - data/dataset/dataset.csv
+  split:
+    cmd: python code/split.py
+    deps:
+    - data/dataset/dataset.csv
+    outs:
+      - data/train_data.csv
+      - data/test_data.csv
+  experiment:
+    cmd: python code/train.py
+    deps:
+      - data/train_data.csv
+      - data/test_data.csv
+    outs:
+    - model.pkl

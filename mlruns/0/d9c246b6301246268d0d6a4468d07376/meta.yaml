@@ -1,0 +1,15 @@
+artifact_uri: file:///home/raffaele/soft_exam/mlruns/0/d9c246b6301246268d0d6a4468d07376/artifacts
+end_time: 1690448982193
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d9c246b6301246268d0d6a4468d07376
+run_name: classy-bird-571
+run_uuid: d9c246b6301246268d0d6a4468d07376
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690448825447
+status: 3
+tags: []
+user_id: raffaele
